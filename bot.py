@@ -2,10 +2,10 @@ from os import environ
 import aiohttp
 from pyrogram import Client, filters
 
-API_ID = environ.get('API_ID')
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', '5fd20df0c4db85798dd4f5ff3d03e3606a94f98b')
+API_ID = environ.get('API_ID', '4108448')
+API_HASH = environ.get('API_HASH', '7df33d67c925efa4d11018c56e07e47c')
+BOT_TOKEN = environ.get('BOT_TOKEN', '1799983702:AAEJEssj8tCSKwzeLUUVwnCVE--z7by6aG4')
+API_KEY = environ.get('API_KEY', '4cd85b77698daf25371d26c752c978397fd3b7e6')
 
 bot = Client('gplink bot',
              api_id=API_ID,
